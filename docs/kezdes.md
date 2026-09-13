@@ -2,7 +2,7 @@
 
 [Kezdőlap](../README.md)
 
-1. A [repó oldalán](https://github.com/nagocs/epi) válaszd a **Code → Download ZIP** lehetőséget. Privát hozzáférésnél jelentkezz be a meghívott GitHub-fiókkal.
+1. A [repó oldalán](https://github.com/nagocs/epi-segedletek) válaszd a **Code → Download ZIP** lehetőséget. Privát hozzáférésnél jelentkezz be a meghívott GitHub-fiókkal.
 2. Csomagold ki a ZIP-et. A **projekt gyökere** az a mappa, amelyben a `README.md`, a `requirements.txt`, a `docs` és a `peldak` található.
 3. VS Code-ban válaszd a **File → Open Folder** menüt, és ezt a mappát nyisd meg.
 4. A parancsokat a **Terminal → New Terminal** panelen futtasd. A Windows-útmutatók PowerShellt használnak; a parancsokat ne a Python `>>>` sorába írd.
