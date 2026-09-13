@@ -1,0 +1,22 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+Notebook[{
+Cell["Line\:00e1ris egyenletrendszer", "Title"],
+
+Cell["\:00d6n\:00e1ll\:00f3 eszk\:00f6zbemutat\:00f3. Ments saj\:00e1t m\:00e1solatot, majd a k\:00f3dcell\:00e1kat fel\:00fclr\:0151l lefel\:00e9, Shift+Enterrel futtasd. Az elv\:00e1rt eredm\:00e9nyek a mappa README-j\:00e9ben szerepelnek.", "Text"],
+
+Cell["Egzakt egy\:00fctthat\:00f3kat haszn\:00e1lunk: 5/2, nem 2.5.", "Text"],
+
+Cell[BoxData[RowBox[{"ClearAll", "[", "x", ",", " ", "y", ",", " ", "z", ",", " ", "egyenletek", ",", " ", "eredmeny", ",", " ", "szabalyok", ",", " ", "balMinuszJobb", "]", ";", " ", "egyenletek", " ", "=", " ", "{", "10", "*", "x", " ", "+", " ", "(", "5", "/", "2", ")", "*", "y", " ", "-", " ", "5", "*", "z", " ", "==", " ", "100", ",", " ", "2", "*", "x", " ", "-", " ", "5", "*", "y", " ", "+", " ", "7", "*", "z", " ", "==", " ", "50", ",", " ", "-", "5", "*", "x", " ", "+", " ", "y", " ", "-", " ", "z", " ", "==", " ", "1", "}", ";"}]], "Input"],
+
+Cell["Ennek a rendszernek egyetlen megold\:00e1sa van. Elv\:00e1rt \:00e9rt\:00e9kek: x=-133/5, y=-2052/5, z=-1392/5.", "Text"],
+
+Cell[BoxData[RowBox[{"eredmeny", " ", "=", " ", "Solve", "[", "egyenletek", ",", " ", "{", "x", ",", " ", "y", ",", " ", "z", "}", ",", " ", "Reals", "]"}]], "Input"],
+
+Cell["A numerikus megjelen\:00edt\:00e9s k\:00fcl\:00f6n l\:00e9p\:00e9s: -26.6, -410.4, -278.4.", "Text"],
+
+Cell[BoxData[RowBox[{"N", "[", "eredmeny", "]"}]], "Input"],
+
+Cell["Kiolvassuk az egyetlen szab\:00e1lylist\:00e1t, majd az eredeti egyenletek k\:00e9t oldal\:00e1nak k\:00fcl\:00f6nbs\:00e9g\:00e9t vizsg\:00e1ljuk.", "Text"],
+
+Cell[BoxData[RowBox[{"szabalyok", " ", "=", " ", "First", "[", "eredmeny", "]", ";", " ", "balMinuszJobb", " ", "=", " ", "egyenletek", " ", "/.", " ", "Equal", " ", "->", " ", "Subtract", ";", " ", "Simplify", "[", "balMinuszJobb", " ", "/.", " ", "szabalyok", "]"}]], "Input"]
+}, StyleDefinitions -> "Default.nb", WindowTitle -> "Line\:00e1ris egyenletrendszer"]

@@ -20,6 +20,8 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ipynb_checkpoints/
+/peldak/*/kimenet/
+/elso_proba.py
 
 # LaTeX intermediate files
 *.aux

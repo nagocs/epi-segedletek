@@ -1,0 +1,26 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+Notebook[{
+Cell["Er\:0151 O pontra vett nyomat\:00e9ka", "Title"],
+
+Cell["\:00d6n\:00e1ll\:00f3 eszk\:00f6zbemutat\:00f3. Ments saj\:00e1t m\:00e1solatot, majd a k\:00f3dcell\:00e1kat fel\:00fclr\:0151l lefel\:00e9, Shift+Enterrel futtasd. Az elv\:00e1rt eredm\:00e9nyek a mappa README-j\:00e9ben szerepelnek.", "Text"],
+
+Cell["Az rOA vektor O-b\:00f3l az er\:0151 A t\:00e1mad\:00e1spontj\:00e1ba mutat. A koordin\:00e1t\:00e1k m\:00e9terben, az er\:0151 newtonban \:00e9rtend\:0151. A program itt sz\:00e1mokat kezel, az egys\:00e9geket mi tartjuk nyilv\:00e1n.", "Text"],
+
+Cell[BoxData[RowBox[{"ClearAll", "[", "rOA", ",", " ", "ero", ",", " ", "nyomatekO", "]", ";", " ", "rOA", " ", "=", " ", "{", "1", ",", " ", "3", ",", " ", "-", "2", "}", ";", " ", "ero", " ", "=", " ", "{", "100", ",", " ", "-", "300", ",", " ", "150", "}", ";"}]], "Input"],
+
+Cell["A sorrend rOA kereszt ero. Az eredm\:00e9ny O-ra vonatkozik, egys\:00e9ge N m; elv\:00e1rt \:00e9rt\:00e9k {-150, -350, -600}.", "Text"],
+
+Cell[BoxData[RowBox[{"nyomatekO", " ", "=", " ", "Cross", "[", "rOA", ",", " ", "ero", "]"}]], "Input"],
+
+Cell["A keresztszorzat mer\:0151leges mindk\:00e9t vektorra. Elv\:00e1rt skal\:00e1ris szorzatok: {0, 0}.", "Text"],
+
+Cell[BoxData[RowBox[{"{", "nyomatekO", ".", "rOA", ",", " ", "nyomatekO", ".", "ero", "}"}]], "Input"],
+
+Cell["A sorrend felcser\:00e9l\:00e9se megford\:00edtja az el\:0151jelet: {150, 350, 600}.", "Text"],
+
+Cell[BoxData[RowBox[{"Cross", "[", "ero", ",", " ", "rOA", "]"}]], "Input"],
+
+Cell["Pr\:00f3ba: az er\:0151 k\:00e9tszerez\:00e9se a nyomat\:00e9kot is k\:00e9tszerezi.", "Text"],
+
+Cell[BoxData[RowBox[{"Cross", "[", "rOA", ",", " ", "2", "*", "ero", "]"}]], "Input"]
+}, StyleDefinitions -> "Default.nb", WindowTitle -> "Er\:0151 O pontra vett nyomat\:00e9ka"]

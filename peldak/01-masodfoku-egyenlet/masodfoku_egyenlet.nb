@@ -1,0 +1,34 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+Notebook[{
+Cell["M\:00e1sodfok\:00fa egyenlet", "Title"],
+
+Cell["\:00d6n\:00e1ll\:00f3 eszk\:00f6zbemutat\:00f3. Ments saj\:00e1t m\:00e1solatot, majd a k\:00f3dcell\:00e1kat fel\:00fclr\:0151l lefel\:00e9, Shift+Enterrel futtasd. Az elv\:00e1rt eredm\:00e9nyek a mappa README-j\:00e9ben szerepelnek.", "Text"],
+
+Cell["T\:00f6r\:00f6lj\:00fck a p\:00e9lda v\:00e1ltoz\:00f3it. A kifejez\:00e9s dimenzi\:00f3 n\:00e9lk\:00fcli.", "Text"],
+
+Cell[BoxData[RowBox[{"ClearAll", "[", "x", ",", " ", "f", ",", " ", "gyokSzabalyok", ",", " ", "gyokok", ",", " ", "maradekok", ",", " ", "abra", ",", " ", "kimenet", "]", ";", " ", "f", " ", "=", " ", "2", "*", "x", "^", "2", " ", "-", " ", "5", "*", "x", " ", "+", " ", "2", ";"}]], "Input"],
+
+Cell["Val\:00f3s gy\:00f6k\:00f6ket keres\:00fcnk. A Solve helyettes\:00edt\:00e9si szab\:00e1lyokat ad.", "Text"],
+
+Cell[BoxData[RowBox[{"gyokSzabalyok", " ", "=", " ", "Solve", "[", "f", " ", "==", " ", "0", ",", " ", "x", ",", " ", "Reals", "]"}]], "Input"],
+
+Cell["A szab\:00e1lyokb\:00f3l kiolvassuk a gy\:00f6k\:00f6ket: {1/2, 2}.", "Text"],
+
+Cell[BoxData[RowBox[{"gyokok", " ", "=", " ", "x", " ", "/.", " ", "gyokSzabalyok"}]], "Input"],
+
+Cell["Az eredeti kifejez\:00e9sbe visszahelyettes\:00edt\:00fcnk. Elv\:00e1rt marad\:00e9kok: {0, 0}.", "Text"],
+
+Cell[BoxData[RowBox[{"maradekok", " ", "=", " ", "Simplify", "[", "f", " ", "/.", " ", "gyokSzabalyok", "]"}]], "Input"],
+
+Cell["A grafikon tartom\:00e1nya mindk\:00e9t gy\:00f6k\:00f6t tartalmazza. A keret \:00e9s feliratok helyben vannak be\:00e1ll\:00edtva.", "Text"],
+
+Cell[BoxData[RowBox[{"abra", " ", "=", " ", "Plot", "[", "f", ",", " ", "{", "x", ",", " ", "-", "1", ",", " ", "3", "}", ",", " ", "Frame", " ", "->", " ", "True", ",", " ", "Axes", " ", "->", " ", "False", ",", " ", "FrameLabel", " ", "->", " ", "{", "\"x (dimenzio nelkuli)\"", ",", " ", "\"f(x) (dimenzio nelkuli)\"", "}", ",", " ", "PlotStyle", " ", "->", " ", "Blue", ",", " ", "GridLines", " ", "->", " ", "{", "gyokok", ",", " ", "{", "0", "}", "}", ",", " ", "ImageSize", " ", "->", " ", "600", "]"}]], "Input"],
+
+Cell["El\:0151bb mentsd el a notebookot. Az export a notebook melletti kimenet mapp\:00e1ba \:00edr, \:00e9s az azonos nev\:0171 kor\:00e1bbi k\:00e9pet fel\:00fcl\:00edrja.", "Text"],
+
+Cell[BoxData[RowBox[{"kimenet", " ", "=", " ", "FileNameJoin", "[", "{", "NotebookDirectory", "[", "]", ",", " ", "\"kimenet\"", "}", "]", ";", " ", "If", "[", "!", "DirectoryQ", "[", "kimenet", "]", ",", " ", "CreateDirectory", "[", "kimenet", "]", "]", ";", " ", "Export", "[", "FileNameJoin", "[", "{", "kimenet", ",", " ", "\"masodfoku_fuggveny_mathematica.pdf\"", "}", "]", ",", " ", "abra", "]"}]], "Input"],
+
+Cell["PNG export a gyors megnyit\:00e1shoz.", "Text"],
+
+Cell[BoxData[RowBox[{"Export", "[", "FileNameJoin", "[", "{", "kimenet", ",", " ", "\"masodfoku_fuggveny_mathematica.png\"", "}", "]", ",", " ", "abra", ",", " ", "ImageResolution", " ", "->", " ", "180", "]"}]], "Input"]
+}, StyleDefinitions -> "Default.nb", WindowTitle -> "M\:00e1sodfok\:00fa egyenlet"]
