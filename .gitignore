@@ -1,0 +1,36 @@
+# Local teaching sources and student feedback: never publish these files.
+/*.pdf
+/*.ppt
+/*.pptx
+/*.nb
+/javaslatok/
+/output/
+/tmp/
+
+# Local tooling and credentials
+/.codex/
+/.agents/
+.env
+.env.*
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
