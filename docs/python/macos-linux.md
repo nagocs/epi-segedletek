@@ -37,12 +37,19 @@ A projektgyökérben létrehozott környezethez:
 ```bash
 ./.venv/bin/python -m pip install -r requirements.txt
 ./.venv/bin/python -c "import sympy, numpy, matplotlib; print(sympy.__version__, numpy.__version__, matplotlib.__version__)"
-./.venv/bin/python peldak/01-masodfoku-egyenlet/masodfoku_egyenlet.py
 ```
 
-A verziók: `1.14.0 2.4.1 3.10.8`. A gyökök: `[1/2, 2]`; a visszahelyettesítési maradékok nullák. A grafikon a példamappa `kimenet` almappájában készül el, akkor is, ha nincs grafikus kijelző.
+A verziók: `1.14.0 2.4.1 3.10.8`.
 
-A parancspalettában (**Python: Select Interpreter**) válaszd ki a `.venv/bin/python` fájlt. macOS-en `Cmd+Shift+P`, Linuxon `Ctrl+Shift+P` nyitja a palettát. Ezután a megnyitott `.py` fájl a **Run Python File in Terminal** paranccsal is indítható. Aktiválás nem szükséges a fenti, közvetlen környezeti parancsokhoz.
+## Futtatás a VS Code-ban
+
+1. Nyisd meg a parancspalettát: macOS-en `Cmd+Shift+P`, Linuxon `Ctrl+Shift+P`.
+2. A **Python: Select Interpreter** paranccsal válaszd ki a projekt `.venv/bin/python` fájlját.
+3. Nyisd meg a `peldak/01-masodfoku-egyenlet/masodfoku_egyenlet.py` fájlt, és mentsd el.
+4. Kattints a jobb felső **Run Python File** háromszögre. A lenyíló menüben a **Run Python File in Terminal** műveletet válaszd, ha több lehetőség látszik.
+5. Az eredmény az alsó **Terminal** panelen jelenik meg: a gyökök `[1/2, 2]`, a visszahelyettesítési maradékok `[0, 0]`.
+
+A grafikon a példamappa `kimenet` almappájában készül el. A PNG-t a VS Code Exploreréből is megnyithatod.
 
 Következő lépés: [első program](elso-program.md) · [hibakeresés](hibakereses.md).
 

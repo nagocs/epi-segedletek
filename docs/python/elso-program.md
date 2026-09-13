@@ -19,21 +19,15 @@ Mindkét hosszúságot méterben értelmezzük. A Python itt puszta számokkal s
 
 Az `=` értéket rendel egy változóhoz. A `*` szorzás. A `print` az idézőjeles szöveget és a kiszámított értéket kiírja. A tizedespont a Python-kód része: `2,5` más szerkezet lenne.
 
-## Futtatás
+## Futtatás a VS Code-ban
 
-Windows PowerShell, a projekt gyökeréből:
+1. Az `elso_proba.py` legyen az aktív szerkesztőlap, és mentsd el (`Ctrl+S`, macOS-en `Cmd+S`).
+2. Kattints a jobb felső **Run Python File** háromszögre; szükség esetén a lenyíló menüben válaszd a **Run Python File in Terminal** műveletet.
+3. Az alsó **Terminal** panelen ezt keresd: `Terület: 10.0 m²`.
 
-```powershell
-.\.venv\Scripts\python.exe elso_proba.py
-```
+A program a **Python: Select Interpreter** paranccsal kiválasztott `.venv` környezetben fut. Módosítás után ments és kattints újra a futtatógombra.
 
-macOS/Linux:
-
-```bash
-./.venv/bin/python elso_proba.py
-```
-
-Elvárt kimenet: `Terület: 10.0 m²`. A VS Code **Run Python File in Terminal** parancsa is használható. A futtatás előtt ments: a program a lemezen lévő fájlt olvassa.
+[VS Code: Python-fájl futtatása](https://code.visualstudio.com/docs/python/run).
 
 ## Módosítás és ellenőrzés
 

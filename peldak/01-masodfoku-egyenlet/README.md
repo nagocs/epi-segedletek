@@ -6,17 +6,12 @@ A dimenzió nélküli `f(x) = 2x² − 5x + 2` függvény zérushelyeit keressü
 
 ## Futtatás
 
-Windows, a repó gyökeréből:
+**Python a VS Code-ban:**
 
-```powershell
-.\.venv\Scripts\python.exe peldak/01-masodfoku-egyenlet/masodfoku_egyenlet.py
-```
-
-macOS/Linux:
-
-```bash
-./.venv/bin/python peldak/01-masodfoku-egyenlet/masodfoku_egyenlet.py
-```
+1. Nyisd meg a `masodfoku_egyenlet.py` fájlt a bal oldali Explorerből.
+2. A **Python: Select Interpreter** paranccsal válaszd ki a projekt `.venv` környezetét.
+3. Mentsd a fájlt, majd a jobb felső **Run Python File** gomb menüjéből válaszd a **Run Python File in Terminal** műveletet.
+4. Az eredményt az alsó **Terminal** panelen olvasd.
 
 Mathematicában nyisd meg a fenti notebookot, majd haladj felülről lefelé a bemeneti cellákon **Shift+Enter** segítségével. Az export előtt a notebook legyen lemezre mentve, mert a mentési helyét használjuk.
 

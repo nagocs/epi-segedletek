@@ -6,17 +6,12 @@ Két dimenzió nélküli függvényt vizsgálunk: `f(x) = x³ + 3x² − 2` és 
 
 ## Futtatás
 
-Windows, a repó gyökeréből:
+**Python a VS Code-ban:**
 
-```powershell
-.\.venv\Scripts\python.exe peldak/04-derivalas-integralas/derivalas_integralas.py
-```
-
-macOS/Linux:
-
-```bash
-./.venv/bin/python peldak/04-derivalas-integralas/derivalas_integralas.py
-```
+1. Nyisd meg a `derivalas_integralas.py` fájlt a bal oldali Explorerből.
+2. A **Python: Select Interpreter** paranccsal válaszd ki a projekt `.venv` környezetét.
+3. Mentsd a fájlt, majd a jobb felső **Run Python File** gomb menüjéből válaszd a **Run Python File in Terminal** műveletet.
+4. Az eredményt az alsó **Terminal** panelen olvasd.
 
 Mathematicában a fenti notebook bemeneti celláin felülről lefelé haladj **Shift+Enter** segítségével.
 

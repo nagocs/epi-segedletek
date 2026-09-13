@@ -2,7 +2,7 @@
 
 [Kezdőlap](../../README.md) · [Python-tartalomjegyzék](README.md)
 
-Az első kérdés: **melyik Python fut, és melyik mappában vagy?** A repó útmutatói a `.venv` Pythonját közvetlenül hívják. A VS Code futtatógombjához külön ki kell választani ugyanezt az interpretert.
+A VS Code-ban a **Python: Select Interpreter** paranccsal válaszd ki a projekt `.venv` környezetét. A futtatógomb ezt a Pythont használja; a csomagtelepítési parancsokat a repó gyökerében nyitott terminálban add ki.
 
 | Jelenség | Teendő |
 | --- | --- |

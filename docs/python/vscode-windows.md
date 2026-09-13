@@ -34,7 +34,7 @@ py -3.14 -m venv .venv
 
 A `.venv` egy új mappa lesz a projekten belül, saját Pythonnal és csomagokkal. A `-m venv` a környezetkészítő modult futtatja. A második parancs a **környezet saját Pythonjával** telepíti a felsorolt csomagokat. Az `-r` azt jelenti: a telepítendők listáját fájlból olvassa.
 
-Ebben az útmutatóban közvetlenül a környezet Pythonját hívjuk, ezért nincs szükség `Activate.ps1` futtatására vagy PowerShell-házirend módosítására. A letöltés végén nem lehet piros telepítési hiba. Ellenőrizd:
+A csomagtelepítéshez közvetlenül a környezet Pythonját hívjuk, ezért nincs szükség `Activate.ps1` futtatására vagy PowerShell-házirend módosítására. A letöltés végén nem lehet piros telepítési hiba. Ellenőrizd:
 
 ```powershell
 .\.venv\Scripts\python.exe -c "import sympy, numpy, matplotlib; print(sympy.__version__, numpy.__version__, matplotlib.__version__)"
@@ -50,13 +50,14 @@ Elvárt kimenet a rögzített csomaglistával:
 
 Nyomd meg a `Ctrl+Shift+P` kombinációt, keresd a **Python: Select Interpreter** parancsot. Válaszd a projekt `.venv` környezetét. Ha nincs a listában, az **Enter interpreter path** lehetőséggel tallózd ki a `.venv\Scripts\python.exe` fájlt. Ez határozza meg, mivel fut a szerkesztőből indított Python-fájl.
 
-## 5. Futtatás
+## 5. Futtatás a VS Code-ban
 
-A terminálban, a repó gyökeréből:
+1. A bal oldali Explorerben nyisd meg a `peldak/01-masodfoku-egyenlet/masodfoku_egyenlet.py` fájlt.
+2. Mentsd el (`Ctrl+S`).
+3. A szerkesztő jobb felső sarkában kattints a **Run Python File** háromszögre. A mellette lévő lenyíló menüben a **Run Python File in Terminal** műveletet válaszd, ha több futtatási lehetőség látszik.
+4. Az eredmény az alsó **Terminal** panelen jelenik meg, a kiválasztott `.venv` környezetből futtatva.
 
-```powershell
-.\.venv\Scripts\python.exe peldak/01-masodfoku-egyenlet/masodfoku_egyenlet.py
-```
+Ugyanez a szerkesztőben jobb kattintással, a **Run → Python File in Terminal** menüből is elérhető.
 
 A gyökök `[1/2, 2]`, a visszahelyettesítési maradékok `[0, 0]` lesznek. A program a példamappán belüli `kimenet` mappába ment egy PDF-et és egy PNG-t; a teljes helyet kiírja. Nem nyit automatikusan ábraablakot.
 

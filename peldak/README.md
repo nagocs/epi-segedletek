@@ -13,7 +13,7 @@ A négy példa Pythonban és Mathematicában ugyanazokat a műveleteket mutatja 
 
 ## Előkészület
 
-**Python:** végezd el a [telepítést](../docs/python/README.md), majd a példa oldalán megadott parancsot a repó gyökerében nyitott terminálban futtasd.
+**Python a VS Code-ban:** [telepítés](../docs/python/README.md) után válaszd ki a projekt `.venv` környezetét a **Python: Select Interpreter** paranccsal. Nyisd meg a példa `.py` fájlját, mentsd, majd a jobb felső **Run Python File** gombbal futtasd. A menüből a **Run Python File in Terminal** műveletet válaszd; az eredmény az alsó **Terminal** panelen jelenik meg.
 
 **Mathematica:** [telepítés](../docs/mathematica/bme-licenc-es-telepites.md) után nyisd meg a `.nb` fájlt. A bemeneti cellákat felülről lefelé, **Shift+Enter** billentyűvel futtasd. [Notebookhasználat](../docs/mathematica/elso-notebook.md).
 

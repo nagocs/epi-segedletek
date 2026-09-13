@@ -120,4 +120,14 @@ A `cite` és `bibitem` azonos kulcsa köti össze a szöveget a forrással. A pr
 
 A százalékjel kommentet kezd; látható százalékhoz `\%` kell. Az aláhúzás matematikában index, normál szövegben `\_` alakban írható. A kapcsos zárójelek parancsargumentumokat fognak közre, párjuknak meg kell lennie. Egyszerre egy részletet változtass, és utána fordíts: így könnyebb megtalálni a hibát.
 
-Következő lépés: [hibakeresés](hibakereses.md).
+## További parancsok és gyorsreferenciák
+
+| Hivatkozás | Mit találsz benne? |
+| --- | --- |
+| [Overleaf: matematikai kifejezések](https://www.overleaf.com/learn/latex/Mathematical_expressions) | Matematikai módok és gyakran használt parancsok, példákkal |
+| [Overleaf: LaTeX-tudástár](https://www.overleaf.com/learn) | Tematikus útmutatók képletekhez, táblázatokhoz, ábrákhoz és hivatkozásokhoz |
+| [LaTeX cheat sheet – CTAN](https://ctan.org/pkg/latexcheat) | Tömör parancsösszefoglaló; a **Documentation** részből letölthető |
+
+A példáknál figyeld a szükséges csomagokat: a `\usepackage{...}` sorokat a preambulumba kell tenni.
+
+Elakadás esetén: [hibakeresés](hibakereses.md).

@@ -12,17 +12,12 @@ Három dimenzió nélküli ismeretlent határozunk meg:
 
 ## Futtatás
 
-Windows, a repó gyökeréből:
+**Python a VS Code-ban:**
 
-```powershell
-.\.venv\Scripts\python.exe peldak/03-egyenletrendszer/linearis_egyenletrendszer.py
-```
-
-macOS/Linux:
-
-```bash
-./.venv/bin/python peldak/03-egyenletrendszer/linearis_egyenletrendszer.py
-```
+1. Nyisd meg a `linearis_egyenletrendszer.py` fájlt a bal oldali Explorerből.
+2. A **Python: Select Interpreter** paranccsal válaszd ki a projekt `.venv` környezetét.
+3. Mentsd a fájlt, majd a jobb felső **Run Python File** gomb menüjéből válaszd a **Run Python File in Terminal** műveletet.
+4. Az eredményt az alsó **Terminal** panelen olvasd.
 
 Mathematicában a notebook bemeneti celláin felülről lefelé haladj **Shift+Enter** segítségével.
 

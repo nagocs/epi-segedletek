@@ -6,23 +6,18 @@ Az `r_OA = (1, 3, −2) m` helyvektor az O pontból az erő A támadáspontjába
 
 ## Futtatás
 
-Windows, a repó gyökeréből:
+**Python a VS Code-ban:**
 
-```powershell
-.\.venv\Scripts\python.exe peldak/02-nyomatek/ero_nyomateka.py
-```
-
-macOS/Linux:
-
-```bash
-./.venv/bin/python peldak/02-nyomatek/ero_nyomateka.py
-```
+1. Nyisd meg a `ero_nyomateka.py` fájlt a bal oldali Explorerből.
+2. A **Python: Select Interpreter** paranccsal válaszd ki a projekt `.venv` környezetét.
+3. Mentsd a fájlt, majd a jobb felső **Run Python File** gomb menüjéből válaszd a **Run Python File in Terminal** műveletet.
+4. Az eredményt az alsó **Terminal** panelen olvasd.
 
 Mathematicában a fenti notebook bemeneti celláin felülről lefelé haladj **Shift+Enter** segítségével.
 
 ## Mit jelentenek a műveletek?
 
-A SymPy `Matrix([1, 3, -2])` oszlopvektort hoz létre; a Mathematica ugyanitt listát használ. A `.cross(...)` / `Cross[...]` vektoriális szorzatot ad. A `.dot(...)` / `Dot[...]` skalárszorzat, amelyet a merőlegesség vizsgálatára használunk. [További megfeleltetések](../../docs/mathematica/python-megfeleltetes.md).
+A SymPy `Matrix([1, 3, -2])` oszlopvektort hoz létre; a Mathematica ugyanitt listát használ. A `.cross(...)` / `Cross[...]` vektoriális szorzatot ad. A `.dot(...)` / `Dot[...]` skalárszorzat, amelyet a merőlegesség vizsgálatára használunk.
 
 Az egységeket ebben a rövid példában a megjegyzések és a kiírások rögzítik, a program nem végez automatikus egységátváltást. Minden adatot a megadott egységben kell beírni.
 
