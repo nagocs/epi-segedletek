@@ -2,7 +2,7 @@
 
 [Kezdőlap](../README.md)
 
-A négy példa egy-egy művelet kipróbálására szolgál. Mindegyikhez Python-program és szerkeszthető Mathematica-notebook tartozik, azonos adatokkal. A témák az oktató korábbi Mathematica-bemutatóiból származnak. Ezek önálló eszközgyakorlatok, tantárgyi beadandó vagy dokumentumsablon nélkül.
+A négy példa Pythonban és Mathematicában ugyanazokat a műveleteket mutatja be, azonos adatokkal.
 
 | Sorrend | Téma | Elsajátítható művelet |
 | --- | --- | --- |
@@ -13,12 +13,8 @@ A négy példa egy-egy művelet kipróbálására szolgál. Mindegyikhez Python-
 
 ## Előkészület
 
-Pythonhoz előbb végezd el a [telepítést](../docs/python/README.md), beleértve a `requirements.txt` csomagjait. A példák oldalán lévő parancsokat a repó gyökérmappájában nyitott terminálban futtasd. Windows alatt PowerShellt feltételezünk. A virtuális környezetet nem kell külön aktiválnod, mert közvetlenül annak Pythonját hívjuk meg.
+**Python:** végezd el a [telepítést](../docs/python/README.md), majd a példa oldalán megadott parancsot a repó gyökerében nyitott terminálban futtasd.
 
-Mathematicához kövesd a [telepítési útmutatót](../docs/mathematica/bme-licenc-es-telepites.md), majd az adott `.nb` fájlt a saját gépedről nyisd meg. A GitHub nem futtat notebookokat. A bemeneti cellákat felülről lefelé, **Shift+Enter** billentyűvel értékeld ki. A cella fogalmát az [első notebook](../docs/mathematica/elso-notebook.md) ismerteti.
+**Mathematica:** [telepítés](../docs/mathematica/bme-licenc-es-telepites.md) után nyisd meg a `.nb` fájlt. A bemeneti cellákat felülről lefelé, **Shift+Enter** billentyűvel futtasd. [Notebookhasználat](../docs/mathematica/elso-notebook.md).
 
-## Hogyan gyakorolj?
-
-Először változtatás nélkül futtasd a példát, és hasonlítsd össze a várt eredménnyel. Ezután egyszerre egy adatot változtass meg. Előbb becsüld meg, mi fog történni, majd ellenőrizd számítással. A különböző sorrendben vagy alakban kiírt, de matematikailag azonos kifejezések nem jelentenek hibát.
-
-A grafikonok a példa saját `kimenet` mappájába kerülnek. Új futtatás felülírja az azonos nevű generált ábrákat. Ezek a fájlok nem kerülnek verziókezelésbe.
+A várt eredményeket a példák oldalai tartalmazzák. A grafikonok a példa saját `kimenet` mappájába kerülnek; új futtatás felülírja az azonos nevű ábrákat.

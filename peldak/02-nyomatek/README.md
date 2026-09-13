@@ -31,7 +31,3 @@ Az egységeket ebben a rövid példában a megjegyzések és a kiírások rögz�
 `M_O = (−150, −350, −600) N m`. Például az első komponens kézzel: `3·150 − (−2)·(−300) = −150`.
 
 A nyomaték skalárszorzata mind a helyvektorral, mind az erővel nulla. Ez szükséges geometriai ellenőrzés, de önmagában nem igazolja a nagyságot vagy az előjelet. Fordított sorrendben az eredmény `(150, 350, 600)`, vagyis az eredeti ellentettje. A keresztszorzat sorrendje tehát lényeges.
-
-## Próbáld ki
-
-Duplázd meg az erő mindhárom komponensét. A nyomatéknak is duplázódnia kell. Ezután válassz a helyvektorral párhuzamos erőt, például `(10, 30, −20) N`, és vizsgáld meg az eredményt. A számítás előtt gondold át az erő hatásvonalának helyzetét az O ponthoz képest.

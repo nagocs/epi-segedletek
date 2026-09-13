@@ -15,7 +15,7 @@ pymanager install 3.14
 py -3.14 --version
 ```
 
-Az első parancs letölti a Pythont, a második a verzióját mutatja. A javítóverzió eltérhet, például `3.14.x`; a tesztelt verziót az [ellenőrzési jegyzék](../ellenorzes.md) rögzíti. A manager és a Python-futtatókörnyezet külön összetevő.
+Az első parancs letölti a Pythont, a második a verzióját mutatja. A javítóverzió eltérhet; a példákat Python 3.14.2-vel ellenőriztük.
 
 Régebbi Python-telepítő mellett a `py` indítóprogram létezhet anélkül, hogy `pymanager` lenne. Egy már működő 3.14-es telepítést nem kell lecserélni. Ha újonnan telepített programot nem talál a parancssor, indíts új terminált. [Python hivatalos Windows-útmutató](https://docs.python.org/3/using/windows.html).
 

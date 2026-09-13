@@ -10,4 +10,4 @@ A Mathematica notebookban egy helyen szerkeszthetsz szöveget, képleteket és f
 4. [Python/SymPy és Mathematica megfeleltetése](python-megfeleltetes.md).
 5. [Hibakeresés](hibakereses.md).
 
-A notebookok a korábbi oktatói példák önálló, személyes csomagoktól független változatai. A futtatási ellenőrzés állapotát az [ellenőrzési jegyzék](../ellenorzes.md) mutatja.
+A notebookok futtatásához aktivált Mathematica szükséges.

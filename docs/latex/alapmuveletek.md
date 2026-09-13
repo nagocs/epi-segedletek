@@ -120,4 +120,4 @@ A `cite` és `bibitem` azonos kulcsa köti össze a szöveget a forrással. A pr
 
 A százalékjel kommentet kezd; látható százalékhoz `\%` kell. Az aláhúzás matematikában index, normál szövegben `\_` alakban írható. A kapcsos zárójelek parancsargumentumokat fognak közre, párjuknak meg kell lennie. Egyszerre egy részletet változtass, és utána fordíts: így könnyebb megtalálni a hibát.
 
-Következő lépés: [hibakeresés](hibakereses.md) · [források és AI](../forrasok-es-ai.md).
+Következő lépés: [hibakeresés](hibakereses.md).

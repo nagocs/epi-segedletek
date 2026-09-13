@@ -33,7 +33,3 @@ A határozott integrálnál az alsó és felső határt is megadjuk: Pythonban `
 - A g egy primitívje `−(2/5) exp(−x/2) [sin(x) + 2cos(x)]`; a határozott integrál közelítőleg **0,333680888164203**.
 
 Mindkét primitív visszaderiválásával az eredeti függvényt kapjuk: a különbség egyszerűsítés után nulla. Az eltérő alakú kifejezéseket a különbségük egyszerűsítésével lehet összevetni. Két helyes primitív egymástól állandóban is eltérhet.
-
-## Próbáld ki
-
-Változtasd a felső integrálási határt 1-ről 2-re. Számítsd ki külön a primitív felső és alsó határon vett értékének különbségét. Egyeznie kell a határozott integrállal. Ne csak a tizedes alakot, az egzakt kifejezések különbségét is ellenőrizd.

@@ -32,7 +32,3 @@ Mathematicában nyisd meg a fenti notebookot, majd haladj felülről lefelé a b
 A két gyök **1/2 és 2**, mindkét visszahelyettesítési maradék **0**. Kézzel is ellenőrizhető: `(2x − 1)(x − 2)` felbontásából ugyanazok a gyökök adódnak. A felfelé nyíló parabola ezeknél az értékeknél metszi a vízszintes tengelyt.
 
 Pythonból `masodfoku_fuggveny.pdf` és `.png`, Mathematicából `masodfoku_fuggveny_mathematica.pdf` és `.png` készül. Az export nem nyit külön ábraablakot Pythonban; a kiírt útvonalon nyisd meg a fájlt. A [grafikon útmutató](../../docs/python/abrakeszites.md) elmagyarázza a rajzolás sorait.
-
-## Próbáld ki
-
-Változtasd az állandó tagot 2-ről 0-ra. Futtatás előtt próbáld szorzattá alakítani az új kifejezést. Ellenőrizd, hogy a kapott gyökök és a grafikon metszéspontjai egyeznek. Ha összetettebb példán dolgozol, a grafikon csak szemléltetés: a mintavételezés önmagában nem bizonyítja a gyökök teljességét.

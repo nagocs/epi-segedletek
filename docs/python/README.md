@@ -14,4 +14,4 @@ A Python-program soronként írja le a számítás lépéseit. A példákban a *
 
 Minden telepítési parancsot a megfelelő rendszer útmutatójából másolj. Elakadás esetén: [hibakeresés](hibakereses.md).
 
-A példákhoz Python 3.14 és a [requirements.txt](../../requirements.txt) csomagverziói alkotják a referencia-környezetet. A tényleges tesztállapotot az [ellenőrzési jegyzék](../ellenorzes.md) írja le. Jupyter nem szükséges; először normál `.py` fájlokkal dolgozunk.
+A példákhoz Python 3.14 és a [requirements.txt](../../requirements.txt) csomagjai szükségesek.

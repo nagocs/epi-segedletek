@@ -30,4 +30,4 @@ Windowsos diagnosztika, a repó gyökeréből:
 
 macOS/Linux alatt a fenti két parancsban `.\.venv\Scripts\python.exe` helyett `./.venv/bin/python` szerepeljen. A kiírt útvonalakban a projekted `.venv` mappáját keresd.
 
-Segítséghez add meg a parancsot és a teljes hibaüzenetet, de a személyes útvonalrészeket kitakarhatod. [Hibajelzés](../../CONTRIBUTING.md).
+Segítséghez add meg a parancsot és a teljes hibaüzenetet, de a személyes útvonalrészeket kitakarhatod.

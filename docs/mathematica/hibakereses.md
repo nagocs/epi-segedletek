@@ -18,4 +18,4 @@
 
 Módosítás után ne csak az utolsó cellát futtasd: az előző definíciókat is frissíteni kell. A program régi kimenete nem bizonyítja, hogy a mostani változat működik.
 
-Hibajelzéskor hasznos a `$Version` kimenete és az első hibaüzenet. Jelszót vagy aktiválási adatot ne másolj bele. [Wolfram támogatás](https://support.wolfram.com/) · [Repóhibák jelzése](../../CONTRIBUTING.md).
+Hibajelzéskor hasznos a `$Version` kimenete és az első hibaüzenet. Jelszót vagy aktiválási adatot ne másolj bele. [Wolfram támogatás](https://support.wolfram.com/).

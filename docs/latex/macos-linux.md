@@ -35,4 +35,4 @@ Nyiss meg egy saját mappát a **File → Open Folder** menüvel. Hozd létre be
 
 Elakadás esetén: [hibakeresés](hibakereses.md). Tovább: [alapműveletek](alapmuveletek.md).
 
-Források: [TeX Live](https://tug.org/texlive/), [MacTeX](https://tug.org/mactex/), [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install). A helyi ellenőrzés hatókörét az [ellenőrzési jegyzék](../ellenorzes.md) rögzíti.
+Források: [TeX Live](https://tug.org/texlive/), [MacTeX](https://tug.org/mactex/), [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install).

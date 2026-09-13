@@ -11,5 +11,3 @@ A LaTeX szöveges forrásból készít formázott dokumentumot. A `.tex` fájlt 
 3. **[macOS/Linux + VS Code](macos-linux.md):** rendszerhez igazított telepítési lépések.
 
 Utána mindhárom esetben: [első fordítás](elso-forditas.md) → [alapműveletek](alapmuveletek.md). Elakadás esetén: [hibakeresés](hibakereses.md).
-
-Az útmutatóban magyarázott kódrészletek vannak. A saját próbafájlodat te hozod létre; nincs letölthető dokumentumsablon vagy kitöltendő címlap.

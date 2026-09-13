@@ -20,4 +20,4 @@ Először mentsd el a forrást, fordíts, majd a napló **első hibáját** kere
 
 Ha a bővítményből nem fordul, próbáld a `.tex` mappájában a `latexmk -pdf forditasi_proba.tex` parancsot. Ha ez sem működik, valószínűleg a TeX-telepítés vagy a forrás a gond. Ha működik, a VS Code kiválasztott projektjét és receptjét vizsgáld.
 
-Segítségkéréshez add meg a rendszert, fordítót, az első hibaüzenetet és a lehető legkisebb reprodukáló kódrészletet. [Hibajelzés](../../CONTRIBUTING.md).
+Segítségkéréshez add meg a rendszert, fordítót, az első hibaüzenetet és a lehető legkisebb reprodukáló kódrészletet.

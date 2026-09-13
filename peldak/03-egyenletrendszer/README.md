@@ -41,7 +41,3 @@ A Python `solve(..., dict=True)` szótárak listáját adja. A szótár a válto
 | z | −1392/5 | −278,4 |
 
 Mindhárom egyenletben a bal oldal mínusz jobb oldal **0**. A negatív értékek ebben az algebrai példában megengedettek. Fizikai alkalmazásban külön vizsgáld, hogy az előjel és a tartomány megfelel-e a modellnek.
-
-## Próbáld ki
-
-Az első egyenlet jobb oldalát változtasd 100-ról 101-re. Figyeld meg, hogy több ismeretlen értéke is módosulhat. Végezd el újra az összes egyenlet visszahelyettesítési ellenőrzését; a régi eredmény kiírása önmagában nem ellenőrzés.
